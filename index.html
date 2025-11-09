@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kus</title>
+    <title>genel bakış</title>
 </head>
 <body>
     <style>
@@ -14,13 +14,39 @@
             align-items: center;
             flex-direction: column;
         }
-        p{
+        .ks p{
             color: white;
             font-size: 50px;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
+        .ks{
+            border: 2px  solid;
+            width: 400px;
+            padding: 12px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 0 30px;
+        }
+        .ks #kisi{
+            border: 2px solid;
+            border-radius: 40px;
+            padding: 12px;
+            width: 360px;
+            text-align: center;
+            box-shadow: 0 0 20px darkred;
+        }
     </style>
-    <p>kus</p>
-    <p>1000</p>
+    <div class="ks">
+    <p>masa 4</p>
+    <p>/start</p>
+    <p id="kisi">kişi sayisi: 2</p>
+    </div>
+    <div class="ks">
+    <p>Masa 3</p>
+    <p>12kg</p>
+    <p id="kisi">kişi sayisi: 7</p>
+    </div>
 </body>
 </html>
